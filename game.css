@@ -1,6 +1,5 @@
 #headline{
 	font-size: 40px;
-	margin-left : 500px;
 	font-weight : bold;
 	color : orange;
 	font-style: italic;
@@ -8,7 +7,6 @@
 
 body{
 	background-image: url("car1.jpg");
-	background-size: 1550px 800px;
 }
 
 .picBackground{
@@ -25,8 +23,8 @@ body{
 }
 
 #NewGame_Moves_Matches{
-	margin-left: 500px;
 	padding-top:10px;
+        width: 50%;
 }
 
 
@@ -64,8 +62,10 @@ body{
 }
 
 #divMyTable{
-	padding-left: 500px;
-	padding-top : 20px;
+/*	padding-left: 500px;
+	padding-top : 20px; */
+        margin:auto;
+        width: 50%;
 }
 
 
