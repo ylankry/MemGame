@@ -4,12 +4,16 @@
 		<script type = "text/javascript" src="jquery-3.1.1.js"></script>
 		<link rel = "stylesheet" href = "game.css" />
 		<script type = "text/javascript" src="game.js"></script> 
+		<Label id="headline">Memory Game</Label>
 	</head>
-	<body onload="init()">
-		<button id="btnNewGame" >New Game</button>
-		<div id="MyMoves">Moves:</div>
-		<div id="MyMatches">Matches:</div>
-		<div id="debug"></div>
+	<body>
+		<div id="NewGame_Moves_Matches">
+			<button id="btnNewGame">New Game</button>
+			<Label id="Moves">Moves: </Label>
+			<Label id="MyMoves">0</Label>
+			<Label id="Matches">Matches: </Label>
+			<Label id="MyMatches">0</Label>
+		</div>
 		<div id="divMyTable"></div>
 		
 	</body>

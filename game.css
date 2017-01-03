@@ -1,11 +1,82 @@
+#headline{
+	font-size: 40px;
+	margin-left : 500px;
+	font-weight : bold;
+	color : orange;
+	font-style: italic;
+}
+
+body{
+	background-image: url("car1.jpg");
+	background-size: 1550px 800px;
+}
+
 .picBackground{
 	width : 100px;
 	height : 100px;
-	background-color : blue;
+	background-color : #ff9933;
+	border-radius: 20px;
 }
 
 .pic_style{
 		width : 100px;
 		height : 100px;
+		border-radius: 20px;
 }
+
+#NewGame_Moves_Matches{
+	margin-left: 500px;
+	padding-top:10px;
+}
+
+
+#btnNewGame{
+	font-size : 20px;
+	width:140px;
+	height:40px;
+	border-radius:20px;
+	background-color: blue;
+	border-color:blue;
+}
+
+#Moves{
+	color : blue;
+	font-weight : bold;
+	font-size : 30px;
+	margin-left: 100px;	
+}
+
+#MyMoves{
+	font-weight : bold;
+	font-size : 30px;
+}
+
+#Matches{
+	color : blue;
+	font-weight : bold;
+	font-size : 30px;
+	margin-left: 20px;
+}
+
+#MyMatches{
+	font-weight : bold;
+	font-size : 30px;
+}
+
+#divMyTable{
+	padding-left: 500px;
+	padding-top : 20px;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+
 
